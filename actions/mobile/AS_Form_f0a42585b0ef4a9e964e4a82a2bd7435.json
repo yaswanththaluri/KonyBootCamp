@@ -1,0 +1,28 @@
+{
+    "AS_Form_f0a42585b0ef4a9e964e4a82a2bd7435": {
+        "id": "AS_Form_f0a42585b0ef4a9e964e4a82a2bd7435",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGestures",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i5f8e2e0a00942efbf9edc465946a012"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c334bb6018984437966eb4006ec74771",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "gusturesRecogniser",
+            "display": "gusturesRecogniser",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
